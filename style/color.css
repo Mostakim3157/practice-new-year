@@ -45,10 +45,10 @@ header {
   padding: 15px 25px 15px 25px;
 }
 
-.btn-primary:hover{
-    color:  #fff;;
-    background: #3DBDEA;
-    transition: .5s;
+.btn-primary:hover {
+  color: #fff;
+  background: #3dbdea;
+  transition: 0.5s;
 }
 
 /* main starts */
@@ -94,8 +94,8 @@ header {
   padding-right: 150px;
   padding-bottom: 20px;
 }
-.my-failures-list{
-    padding-left: 15px;
+.my-failures-list {
+  padding-left: 15px;
 }
 
 .my-failures-list > li {
@@ -104,4 +104,52 @@ header {
   font-size: 16px;
   font-weight: 400;
   line-height: 35px;
+}
+
+/* my plans starts */
+
+.my-plans {
+ 
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.my-plans-head-h3 {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.my-plans-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.my-plans-name{
+    color: var(--Dark-01, #151414);
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.my-plans-time{
+    color: var(--Dark-03, #737272);
+text-align: center;
+font-size: 25px;
+font-weight: 450;
+padding-bottom: 100px;
+}
+
+.my-plans-img{
+   padding-left: 50px;
+}
+.my-plans-img-1{
+    padding-left: 95px;
 }
