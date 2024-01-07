@@ -11,8 +11,9 @@ body {
 /* header starts */
 header {
   background-image: url("../images/banner/banner3.png");
-  width: 1600px;
+  width: 1520px;
   height: 808px;
+  background-repeat: no-repeat;
 }
 
 .header-title {
@@ -29,7 +30,7 @@ header {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  padding: 20px 230px 20px 876px;
+  padding: 30px 230px 20px 876px;
 }
 
 .btn-primary {
@@ -40,6 +41,67 @@ header {
   border: none;
   border-radius: 5px;
   background: #fff;
-  margin: 10px 223px 186px 1215px;
-  padding: 15px 25px 15px 25px
+  margin: 20px 223px 186px 1135px;
+  padding: 15px 25px 15px 25px;
+}
+
+.btn-primary:hover{
+    color:  #fff;;
+    background: #3DBDEA;
+    transition: .5s;
+}
+
+/* main starts */
+
+/* my failures */
+.my-failures {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 100px;
+}
+
+.my-failures-profile {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-failures-profile-img {
+  width: 500px;
+  height: auto;
+}
+
+.my-my-failures-text {
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.my-failures-head {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-right: 140px;
+}
+
+.my-failures-discription {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+.my-failures-list{
+    padding-left: 15px;
+}
+
+.my-failures-list > li {
+  list-style: square;
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
 }
